@@ -17,3 +17,4 @@ Então('validar login com sucesso') do
   print_screen('login_sucesso')
   @login.a_sair.click
 end
+
