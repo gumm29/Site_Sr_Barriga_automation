@@ -3,8 +3,7 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh 'ruby --version'
-                echo 'teste de build automatico'
+                echo 'ruby --version'
             }
         }
     }
