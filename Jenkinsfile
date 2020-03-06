@@ -16,7 +16,7 @@ pipeline{
         stage('deploy'){
             steps{
                 sh 'git checkout master'
-                sh 'git merge teste'
+                sh 'git merge origin/teste'
             }
         }
     }
