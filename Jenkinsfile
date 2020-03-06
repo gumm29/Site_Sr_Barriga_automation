@@ -13,5 +13,11 @@ pipeline{
                 sh 'rubocop'
             }
         }
+        stage('deploy'){
+            steps{
+                sh 'git checkout master'
+                sh 'git merge teste'
+            }
+        }
     }
 }
