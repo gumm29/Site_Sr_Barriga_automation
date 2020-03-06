@@ -5,7 +5,7 @@ pipeline{
             steps{
                 sh 'ruby --version'
                 sh 'gem install bundler'
-                sh 'bundle install'
+                sh 'bundle'
             }
         }
         stage('rubocop'){
