@@ -18,4 +18,3 @@ Então('validar login com sucesso') do
   @login.a_sair.click
 end
 
-
