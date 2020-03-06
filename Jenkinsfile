@@ -1,9 +1,9 @@
-pipeline{
-    agent{ image 'ruby' }
+{
+    agent any
     stages{
         stage('build'){
             steps{
-                echo 'ruby --version'
+                'ruby --version'
             }
         }
     }
