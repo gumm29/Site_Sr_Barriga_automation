@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Novo Usuario
 class NovoUsuario < SitePrism::Page
   element :div_sucesso_cadastro, '.alert.alert-success'

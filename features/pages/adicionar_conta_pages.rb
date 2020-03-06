@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Conta
 class AddConta < SitePrism::Page
   element :input_nome_conta, '#nome'

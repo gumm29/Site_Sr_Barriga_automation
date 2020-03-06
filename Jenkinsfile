@@ -1,9 +1,15 @@
 pipeline{
     agent any
     stages{
-        stage('build'){
+        stage('config'){
             steps{
                 sh 'ruby --version'
+                sh 'bundle install'
+            }
+        }
+        stage('rubocop'){
+            steps{
+                sh 'rubocop'
             }
         }
     }

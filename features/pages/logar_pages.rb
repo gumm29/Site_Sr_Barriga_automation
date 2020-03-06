@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Logar
 class Logar < SitePrism::Page
   element :div_sucesso_cadastro, '.alert.alert-success'
