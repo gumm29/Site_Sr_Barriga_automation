@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Dado('acessar o site na sessão cadastro') do
   @cad_usuario = CadUsuario.new
   @cad_usuario.load

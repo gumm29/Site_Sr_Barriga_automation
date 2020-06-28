@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Dado('fazer login com dados válidos e clicar em adicionar conta') do
   step('acessar aba login')
   step('preencher dados de email e senha')

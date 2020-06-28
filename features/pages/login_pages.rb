@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Login
 class Login < SitePrism::Page
   set_url 'https://srbarriga.herokuapp.com/login'

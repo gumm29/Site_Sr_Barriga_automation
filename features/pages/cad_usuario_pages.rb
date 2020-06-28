@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Cadastro Usuario
 class CadUsuario < SitePrism::Page
   set_url 'https://srbarriga.herokuapp.com/cadastro'

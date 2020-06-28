@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Dado('acessar aba login') do
   step('acessar o site na sessão cadastro')
   step('inserir dados "positivo"')
@@ -17,4 +19,3 @@ Então('validar login com sucesso') do
   print_screen('login_sucesso')
   @login.a_sair.click
 end
-

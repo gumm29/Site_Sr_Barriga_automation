@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Helper module
 module Helper
   def print_screen(nome_arquivo)
